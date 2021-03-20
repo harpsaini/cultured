@@ -3,6 +3,10 @@ title: "my first blog post"
 date: "2021-02-24"
 ---
 I just launched a new blog
+
+![image](./image1.png)
+
+
 ## Topics covered
 
 1. Mental health
