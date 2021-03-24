@@ -4,7 +4,7 @@ import {documentToReactComponents,BLOCKS} from "@contentful/rich-text-react-rend
 import Head from '../components/head'
 
 
-import Layout from'../components/Layout'
+import Layout from'../components/layout'
 
 export const query = graphql`
 	query($slug: String!){
