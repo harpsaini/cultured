@@ -7,7 +7,8 @@ const App = () => {
     <Layout>
       <Head title="Home"/>
       <h1> Hello </h1>
-      <p> This is the culutured blog</p>
+      <p> This is the blog you been looking for. 
+          </p>
     </Layout>
     
     )

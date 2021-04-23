@@ -1,0 +1,28 @@
+.formContainer{
+    display:grid;
+   grid-template-columns: 30%;
+   padding-top: 20px;
+
+  
+}
+
+
+
+.item1{
+    width: 300px;
+    background-color: #d3d3d3;
+    margin-bottom: 20px;
+   
+}
+
+.item2{
+    width: 300px;
+    background-color: #d3d3d3;
+    margin-bottom: 20px;
+
+}
+
+button:hover{
+    background-color: #999999;
+    cursor: pointer;
+}
