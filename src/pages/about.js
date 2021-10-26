@@ -7,14 +7,8 @@ const AboutPage = () =>{
 	return(
 		<Layout>
 			<Head title="About"/>
-			<h3> Milk will not yield yogurt unless its cultured, boil it all you want.- Bulle Shah</h3>
-			<p> Bulle Shah one of the most influential Sufi poets was really onto something when he said these
-				lines regarding any transformation. 
-			</p>
-			<p> 
-				It is my sincere hope that the Culture of ideas and inspiration i offer here 
-				catalyzes transformation both in your inner and outer worlds.
-			</p>
+			<h3> I am a Front End Developer based in Toronto Canada. </h3>
+			<p>I have created this blog to keep track of all my learning and to share my personality beyond my resume. Here i share information about my personal journey on being a developer and the person that i am. </p>
 		</Layout>
 		)
 }

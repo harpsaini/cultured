@@ -6,9 +6,8 @@ const App = () => {
   return (
     <Layout>
       <Head title="Home"/>
-      <h1> Hello </h1>
-      <p> This is the blog you been looking for. 
-          </p>
+      <h1> Hello, I am Harpreet Singh. </h1>
+      <p>Here i discuss ideas i believe worth sharing. </p>
     </Layout>
     
     )

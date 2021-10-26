@@ -6,7 +6,7 @@ const Header = () =>{
 	return(
 		<div className={headerStyles.header}>
 		<h1>
-			<Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem}to="/">Cultured</Link> 
+			<Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem}to="/">Harpreet's Blog</Link> 
 		</h1>
 		<nav >
 			<ul className={headerStyles.navlist}>
