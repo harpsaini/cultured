@@ -13,6 +13,8 @@ const Head = ({title}) => {
         }
     }
     `)
+
+    console.log(data);
     return(
         <Helmet title={`${title} | ${data.site.siteMetadata.title}`} />
     )

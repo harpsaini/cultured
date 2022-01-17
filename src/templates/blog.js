@@ -40,19 +40,17 @@ const Blog = (props) => {
 				 file: {url}, 
 				 title
 			  } = props.data.contentfulBlogPost.body.references.find(({contentful_id: id}) => id === imageID);
-  
-			  return <img src={url} alt={title} />
+			  return <img width={750} src={url} alt={title} />
 		   }
 		}
 	 }
   
 		return(
-
 			<Layout>
-			<Head title={props.data.contentfulBlogPost.title}/>
-			<h1>{props.data.contentfulBlogPost.title}</h1>
-			<p>{props.data.contentfulBlogPost.publishedDate}</p>
-			{documentToReactComponents(JSON.parse(props.data.contentfulBlogPost.body.raw),options)}
+				<Head title={props.data.contentfulBlogPost.title}/>
+				<h1>{props.data.contentfulBlogPost.title}</h1>
+				<p>{props.data.contentfulBlogPost.publishedDate}</p>
+				{documentToReactComponents(JSON.parse(props.data.contentfulBlogPost.body.raw),options)}
 			</Layout>
 			)	
 }

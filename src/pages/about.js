@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout"
 import Head from '../components/head'
-
+import aboutStyles from './about.module.scss'
 
 const AboutPage = () =>{
 	return(

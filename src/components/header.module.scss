@@ -1,6 +1,13 @@
+@import '../styles/vars';
+@import '../styles/setup';
+
 .header{
-	padding: 1rem 0 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
+
 .title{
 	color: #000000;
 	font-size: 3rem;	
@@ -11,17 +18,20 @@
 	display: flex;
 	list-style-type: none;
 	margin: 0;
+	justify-content: center;
+	gap: 2rem;
+	font-weight: bold;
 }
 .navitem{
-	color: #999999;
-	font-size: 0.9rem;
-	margin-right: 1.3rem;
-	text-decoration: none;
+	color: $secondary-colour;
+	text-decoration: none;	
+	display: inline-block;
 
 }
 
 .navitem:hover{
 	color: #666666;
+	transform: scale(1.1);
 }
 
 .active-nav-item{

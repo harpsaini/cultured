@@ -1,3 +1,4 @@
+
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
@@ -18,24 +19,10 @@ module.exports = {
     
     `gatsby-plugin-sass`,
     "gatsby-plugin-sharp",
-    {
-      resolve:'gatsby-transformer-remark',
-      options:{
-        plugins:[
-          'gatsby-remark-relative-images',
-          {
-            resolve:'gatsby-remark-images',
-              options:{
-                maxWidth:750,
-                linkImagesToOriginal:false
-              }
-          }
-        ]
-      }
-    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    // "gatsby-plugin-image",
 
     {
       resolve:"gatsby-source-filesystem",
@@ -49,5 +36,3 @@ module.exports = {
     
   ],
 };
-
-
