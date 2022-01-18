@@ -1,10 +1,9 @@
 import React from "react"
 import {graphql} from "gatsby"
-import {documentToReactComponents,BLOCKS} from "@contentful/rich-text-react-renderer"
+import {documentToReactComponents} from "@contentful/rich-text-react-renderer"
 import Head from '../components/head'
-
-
 import Layout from'../components/layout'
+
 
 export const query = graphql`
 	query($slug: String!){
@@ -40,7 +39,9 @@ const Blog = (props) => {
 				 file: {url}, 
 				 title
 			  } = props.data.contentfulBlogPost.body.references.find(({contentful_id: id}) => id === imageID);
-			  return <img width={750} src={url} alt={title} />
+			  return (
+						<img src={url} alt={title} />
+				)
 		   }
 		}
 	 }

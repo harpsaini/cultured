@@ -20,10 +20,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
-    // "gatsby-plugin-image",
-
     {
       resolve:"gatsby-source-filesystem",
       options:{

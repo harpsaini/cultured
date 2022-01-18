@@ -237,9 +237,13 @@ body {
   line-height: 1.5rem;
 }
 
+img {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
 .heroImage {
-  max-width: 20rem;
-  max-height: 60rem;
+  max-width: 40%;
   -o-object-fit: cover;
      object-fit: cover;
 }/*# sourceMappingURL=index.module.css.map */

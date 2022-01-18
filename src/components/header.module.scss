@@ -3,8 +3,9 @@
 
 .header{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 
@@ -17,16 +18,17 @@
 .navlist{
 	display: flex;
 	list-style-type: none;
-	margin: 0;
 	justify-content: center;
 	gap: 2rem;
 	font-weight: bold;
+	flex-wrap: wrap;
 }
+
 .navitem{
 	color: $secondary-colour;
 	text-decoration: none;	
 	display: inline-block;
-
+	flex-shrink: 1;
 }
 
 .navitem:hover{

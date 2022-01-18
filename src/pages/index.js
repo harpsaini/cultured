@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Layout>
       <Head title="Home"/>
-      <h2>Hello there! Welcome to my blog page.</h2>
+      <h2>Hello there! Welcome to my blog</h2>
       <div>
       <img className={indexStyles.heroImage} src={heroImage} alt='heroImage'/>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt repellat, reiciendis culpa, modi nobis minima id voluptatem eveniet error aliquid consectetur. Ipsum, tempore asperiores? Pariatur unde nisi iusto ratione quam, quis ad aspernatur officia similique? Omnis mollitia nobis itaque! 
