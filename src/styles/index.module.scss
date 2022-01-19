@@ -1,12 +1,13 @@
 @import '../styles/setup';
 @import '../styles/vars';
 
-
 body{
   font-size: 125%;
   background-color: $primary-colour; 
   letter-spacing: 1.1px;
-  line-height: 1.5rem;
+  // line-height: normal;
+  font-family: Montserrat;
+  text-align: center;
 }
 
 img{
@@ -15,6 +16,5 @@ img{
 }
 
 .heroImage{
-  max-width: 40%;
   object-fit: cover;
 }

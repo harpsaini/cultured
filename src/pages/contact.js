@@ -9,13 +9,13 @@ const ContactPage = () =>{
 		<Layout>
 			<Head title="Contact Us" />	
 			<div>
-				<h2>Let's Talk Code</h2>
+				<h2>Contact Me</h2>
 				<form className="formStyles"
 				method="post" 
 				netlify-honeypot="bot-field" 
 				data-netlify="true" 
 				name="contact">
-
+				<h3>Let's Talk Code</h3>
 				<input type="hidden" name="bot-field" />
 				<input type="hidden" name="form-name" value="contact" />
 				<label className={contactStyles.srOnly} htmlFor="text">Name</label>

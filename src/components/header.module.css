@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Oswald&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -235,6 +236,7 @@ html {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  font-family: Oswald;
 }
 
 .title {
@@ -248,7 +250,6 @@ html {
   list-style-type: none;
   justify-content: center;
   gap: 2rem;
-  font-weight: bold;
   flex-wrap: wrap;
 }
 
